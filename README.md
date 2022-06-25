@@ -7,11 +7,11 @@ This repository was created so I could continue development for fun in my own ti
 
 # Table of Contents
 
-- [The Project](##The-Project)
-- [The Result](##The-Result)
-- [Daily Breakdown](##Daily-Breakdown)
-- [Presentation](###Day-5)
-- [My Further Developments](##My-Further-Developments)
+- **[The Project](#the-project)**<br>
+- **[The Result](#the-result)**<br>
+- **[Daily Breakdown](#daily-breakdown)**<br>
+- **[Presentation](#day-5)**<br>
+- **[My Further Developments](#my-further-developments)**<br>
 
 ## The Project
 

@@ -56,7 +56,7 @@ On our final day we spent the morning producing a presentation that could showca
 
 ![presentationGIF](./images/presentation.gif)
 
-### My Further Developments
+## My Further Developments
 
 Here I will document any changes I make after the completion of the project.
 

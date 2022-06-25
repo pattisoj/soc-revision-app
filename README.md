@@ -7,11 +7,11 @@ This repository was created so I could continue development for fun in my own ti
 
 # Table of Contents
 
-- [The Project](##The-Project)
-- [The Result](##The-Result)
-- [Daily Breakdown](##Daily-Breakdown)
-- [Presentation](###Day-5)
-- [My Further Developments](##My-Further-Developments)
+- **[The Project](#the-project)**<br>
+- **[The Result](#the-result)**<br>
+- **[Daily Breakdown](#daily-breakdown)**<br>
+- **[Presentation](#day-5)**<br>
+- **[My Further Developments](#my-further-developments)**<br>
 
 ## The Project
 
@@ -56,7 +56,7 @@ On our final day we spent the morning producing a presentation that could showca
 
 ![presentationGIF](./images/presentation.gif)
 
-### My Further Developments
+## My Further Developments
 
 Here I will document any changes I make after the completion of the project.
 

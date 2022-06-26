@@ -61,3 +61,4 @@ On our final day we spent the morning producing a presentation that could showca
 Here I will document any changes I make after the completion of the project.
 
 - 25/06/22 - Combined both repositories from the project into this repository, removed the old READMEs, created this new README and created the images folder.
+- 26/06/22 - Linked this repository to a personal database separate from the project database. Installed the SweetAlert npm package for better alerts on form submit and form 'missing fields' error.

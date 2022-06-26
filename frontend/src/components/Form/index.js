@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./form.css";
+import swal from "sweetalert";
 
 //POST to links URL
 const linksURL = `http://localhost:5001/links`;
@@ -34,7 +35,11 @@ export default function Form({ setFormReturn, categories }) {
   async function postLink(event) {
     event.preventDefault();
     if (Category === "" || Link === "" || Description === "" || Name === "") {
-      alert("Please fill in all form fields!");
+      swal({
+        title: "Error - Form did not submit.",
+        text: "Please fill in all of the form fields!",
+        icon: "error",
+      });
       return;
     }
     const postBody = {
@@ -59,12 +64,16 @@ export default function Form({ setFormReturn, categories }) {
       body: JSON.stringify(postBody), // body data type must match "Content-Type" header
     });
     const responseData = await response.json();
-    console.log(responseData.payload);
     setFormReturn(responseData.payload);
     setCategory("");
     setLink("");
     setDescription("");
     setName("");
+    swal({
+      title: "Success!",
+      text: "Your link has been submitted.",
+      icon: "success",
+    });
   }
 
   return (

@@ -36,7 +36,7 @@ Below is a gif demonstration of the app as it was on the final day of the projec
 
 ### Day 1
 
-Day 1 consisted of use meeting and getting to know our teammates. Before the project week I had only worked with one of my teammates so it was great getting to know some new people. We spent time creating a team manifesto highlighting our team principles, how we were going to make decisions and how we were going to resolve any disputes if they arose. We used Day 1 to work out who we were solving the problem for, what the problem was, how best to align with our target users in terms of creating a brand/user journey and what the priorities are to deliver value to our users. We then got the whole team set up so that we were all ready to code on the same page with a well planned backlog of tasks to deliver. We used the steps of Disney ideation and ensured we made space for all of the phases of the ideation process.
+Day 1 consisted of meeting and getting to know our teammates. Before the project week I had only worked with one of my teammates so it was great getting to know some new people. We spent time creating a team manifesto highlighting our team principles, how we were going to make decisions and how we were going to resolve any disputes if they arose. We used Day 1 to work out who we were solving the problem for, what the problem was, how best to align with our target users in terms of creating a brand/user journey and what the priorities are to deliver value to our users. We then got the whole team set up so that we were all ready to code on the same page with a well planned backlog of tasks to deliver. We used the steps of Disney ideation and ensured we made space for all of the phases of the ideation process.
 
 ### Day 2
 

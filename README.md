@@ -62,7 +62,13 @@ On our final day we spent the morning producing a presentation that could showca
 
 Here I will document any changes I make after the completion of the project.
 
+<details>
+<summary> Click to view updates in chronological order </summary>
+
+<br />
+
 - Combined both repositories from the project into this repository, removed the old READMEs, created this new README and created the images folder.
 - Linked this repository to a personal database separate from the project database. Installed the SweetAlert npm package for better alerts on form submit and form 'missing fields' error.
-- The week after our project we spent time reformatting our code to be more readable. We also created proper documentation. I have changed the code base in this project to be better formatted and more readable. I have also brought across the README.md we created and stored it in this repo.
+- The week after our project we spent time reformatting our code to be more readable. We also created proper documentation. I have changed the code base in this project to be better formatted and more readable. I have also brought across the README.md we created and stored it in this repo. *This lead to the removal of SweetAlert.*
 - Deployment! The original repository is deployed.
+</details>

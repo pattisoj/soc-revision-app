@@ -1,5 +1,3 @@
-// title (category), description, code snippet - get out of props
-
 import React from "react";
 import "./Result.css";
 

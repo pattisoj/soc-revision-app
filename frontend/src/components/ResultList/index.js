@@ -1,11 +1,7 @@
-// <ul> that takes in props of results, maps through the results
-// and calls a result component for each item in the results array
-
 import Result from "../Result";
-import "./index.css";
+import "./resultList.css";
 
 export default function ResultList({ results }) {
-  console.log(results);
   return (
     <div className="resultlist-container">
       <ul>

@@ -17,30 +17,17 @@ function reducer(state, action) {
   }
 }
 
-export default function Searchpage({ activePage }) {
+export default function SearchPage() {
   const [state, dispatch] = useReducer(reducer, initialState);
-  if (activePage === "Searchpage") {
-    return (
-      <div className="search-container">
-        <div className="search-header">
-          <h1>
-            The <s>School</s> Search of Code
-          </h1>
-          <SearchInput dispatch={dispatch} />
-        </div>
-        <ResultList results={state} />
+  return (
+    <div className='search-container'>
+      <div className='search-header'>
+        <h1>
+          The <s>School</s> Search of Code
+        </h1>
+        <SearchInput dispatch={dispatch} />
       </div>
-    );
-  }
-  return <></>;
+      <ResultList results={state} />
+    </div>
+  );
 }
-
-/*
-Plan for State
-Import useReducer
-Set initialState
-Create reducer function to return new state
-Set State using [state, dispatch] syntax
-Pass in reducer function and initialState
-Pass down dispatch as prop to Search Input
-*/

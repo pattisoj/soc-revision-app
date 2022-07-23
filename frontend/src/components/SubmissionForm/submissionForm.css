@@ -51,7 +51,3 @@ form button:hover {
   background-color: #b84840;
   /* color: var(--black-color); */
 }
-
-.swal-overlay{
-  background-color: rgba(108, 122, 137, 0.8);
-}

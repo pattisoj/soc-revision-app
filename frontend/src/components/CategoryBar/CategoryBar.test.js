@@ -1,11 +1,11 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import CategoryBar from "./index.js";
+import categoryBar from "./index.js";
 
-describe("CategoryBar tests", () => {
+describe("categoryBar tests", () => {
   test("should show a category button", () => {
     render(
-      <CategoryBar
+      <categoryBar
         categories={["React"]}
         activeCategory={"React"}
         handleToggle={jest.fn()}
@@ -18,7 +18,7 @@ describe("CategoryBar tests", () => {
 
   test("button should have correct text content", () => {
     render(
-      <CategoryBar
+      <categoryBar
         categories={["Array Methods"]}
         activeCategory={"React"}
         handleToggle={jest.fn()}
@@ -31,7 +31,7 @@ describe("CategoryBar tests", () => {
 
   test("button should have correct active class", () => {
     render(
-      <CategoryBar
+      <categoryBar
         categories={["Array Methods", "React", "General"]}
         activeCategory={"General"}
         handleToggle={jest.fn()}
@@ -46,7 +46,7 @@ describe("CategoryBar tests", () => {
     const testFunction = jest.fn();
 
     render(
-      <CategoryBar
+      <categoryBar
         categories={["General"]}
         activeCategory={"General"}
         handleToggle={testFunction}

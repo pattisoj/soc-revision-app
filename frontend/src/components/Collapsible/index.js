@@ -1,9 +1,9 @@
-import "./index.css";
+import "./collapsible.css";
 
-export default function Collapsible({ resourceLinks }) {
+export default function Collapsible({ activeContent }) {
   return (
     <div className="links-container">
-      {resourceLinks.map((resource) => (
+      {activeContent.map((resource) => (
         <a target="blank" href={resource.link} key={resource.link_id}>
           <p className="description">{resource.description}</p>
           <p className="contributor">{`⭐️ Contributor: ${resource.contributor}`}</p>

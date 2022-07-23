@@ -5,6 +5,8 @@
 A Revision app for the School of Code. Initially created as a team of 4 in one week (5 days). The team consisted of myself, [Nathan Lee](https://github.com/N-LEE-94), [Jessy Yeh](https://github.com/Jessy-Yeh), and [Andy Johnson](https://github.com/multi-vit).
 This repository was created so I could continue development for fun in my own time and showcase the work we completed during the project.
 
+#### The live website can be found [here](https://team16.netlify.app/).
+
 # Table of Contents
 
 - **[The Project](#the-project)**<br>
